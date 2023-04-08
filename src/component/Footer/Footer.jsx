@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className='dark'>
-            <p>All Rights Reseved By Tshirt Store @ 2020</p>
+            <p>All Rights Reseved By Tshirt Store @ {new Date().getFullYear()}</p>
         </div>
     );
 };

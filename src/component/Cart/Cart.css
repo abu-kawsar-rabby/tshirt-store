@@ -1,0 +1,18 @@
+.cart{
+    text-align: center;
+}
+.orange{
+    background: orange;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+
+
+.font{
+    font-size: larger;
+    font-weight: bolder;
+}
