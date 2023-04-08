@@ -6,6 +6,8 @@ import Shop from './component/Shop/Shop';
 import Home from './component/Home/Home';
 import About from './component/About/About';
 import Contact from './component/Contact/Contact';
+import Blog from './component/Blog/Blog';
+import Family from './component/Family/Family';
 
 const router = createBrowserRouter(
   [
@@ -17,6 +19,14 @@ const router = createBrowserRouter(
           path: '/',
           element: <Shop></Shop>,
           loader: () => fetch('tshirts.json')
+        },
+        {
+          path: '/blog',
+          element: <Blog></Blog>
+        },
+        {
+          path: '/family',
+          element: <Family></Family>
         },
         {
           path: '/about',

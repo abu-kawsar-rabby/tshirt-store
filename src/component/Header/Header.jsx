@@ -8,7 +8,8 @@ const Header = () => {
             <h1 id='title'><span id='t'>T</span>shirt</h1>
             <div>
                 <Link to='/'>Home</Link>
-                <Link to='/shop'>Shop</Link>
+                <Link to='/blog'>Blog</Link>
+                <Link to='/family'>Family</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/contact'>Contact</Link>
             </div>

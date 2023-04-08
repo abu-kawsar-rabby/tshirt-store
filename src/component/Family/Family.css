@@ -1,0 +1,9 @@
+.family{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+.text{
+    text-align: center;
+
+}

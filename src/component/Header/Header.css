@@ -3,6 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #ffffff;
+    position: sticky;
+    top: 1px;
+    z-index: 10;
+    border-bottom: 1px solid red;
 }
 
 .nav a {
@@ -15,12 +20,15 @@
     padding: 5px 10px;
     border-radius: 5px;
 }
-.nav a:hover{
-    color: red;
+
+.nav a:hover {
+    color: white;
+    background: red;
     transition: 0.3s ease-in-out;
 }
 
 #title {
+    margin: 15px;
     font-size: xx-large;
     font-weight: 900;
 }
