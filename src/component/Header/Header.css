@@ -1,0 +1,31 @@
+.nav {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    font-size: large;
+    font-weight: bold;
+    margin-right: 5px;
+    color: rgb(0, 0, 0);
+    /* background: #ff0000; */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav a:hover{
+    color: red;
+}
+
+#title {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+#t {
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}

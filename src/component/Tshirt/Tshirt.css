@@ -1,0 +1,13 @@
+.tshirt-box{
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+    width: fit-content;
+    text-align: center;
+}
+.tshirt-box img{
+    border-radius: 5px;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+}
